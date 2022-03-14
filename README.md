@@ -1,1 +1,1 @@
-repo for c progam
+repo for c program

@@ -1,1 +1,1 @@
-this script runs a c file
+Hello World
