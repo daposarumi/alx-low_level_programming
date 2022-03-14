@@ -1,1 +1,1 @@
-script generates assembly code
+script creates executable file
