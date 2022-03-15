@@ -1,1 +1,1 @@
-seventh task
+this script generates assembly code
