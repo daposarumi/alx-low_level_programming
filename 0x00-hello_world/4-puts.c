@@ -3,6 +3,8 @@
 
 /**
  * main - Entry point
+ * @void - Nothing
+ *
  * Description: prints "Programming is like building a multilingual puzzle"
  * Return: 0
  */
