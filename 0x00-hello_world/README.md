@@ -1,1 +1,1 @@
-script creates executable file
+c program
