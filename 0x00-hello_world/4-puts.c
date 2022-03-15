@@ -2,9 +2,9 @@
 
 
 /**
- * main - Entry point of our program
- * This is the main functions, where everything starts
- * Return: Always return 0 (Success)
+ * main - Entry point
+ * Description: prints "Programming is like building a multilingual puzzle"
+ * Return: 0
  */
 int main(void)
 {
