@@ -3,7 +3,6 @@
 
 /**
  * main - Entry point
- * 
  * Description: prints "and that piece of art"
  * Return: 0
 */
