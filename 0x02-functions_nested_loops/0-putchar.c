@@ -18,5 +18,5 @@ for (i = 0; i < 8; i++)
 {
 putchar(str[i]);
 }
-_putchar('\n');
+putchar('\n');
 return (0); }
