@@ -1,1 +1,1 @@
-program prints puchar
+prints alphabet in lowercase
