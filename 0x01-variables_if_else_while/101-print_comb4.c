@@ -2,7 +2,7 @@
 
 
 /**
- * main - function printss combo of three numbers
+ * main - function prints combo of three numbers
  * Return: 0
  */
 int main(void)
@@ -24,6 +24,7 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
+			}
 		}
 	}
 	putchar('\n');
