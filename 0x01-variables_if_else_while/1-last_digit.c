@@ -2,13 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-
 /**
- * main - beginning of program
- * @void - no arguments
- *
- * Description - function prints last digit
- * stored in variable
+ * main - function prints last number
  * Return: 0
  */
 int main(void)
@@ -19,7 +14,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	last_num = n % 10;
-	if (last_num > 5)
+	if (last_num < 5)
 	{
 		printf("Last digit of %i is %d and is greater than 5\n", n, last_num);
 	}
@@ -32,4 +27,5 @@ int main(void)
 		printf("Last digit of %i is %d and is less than 6 and not 0\n", n, last_num);
 	}
 	return (0);
-}	
+}
+
