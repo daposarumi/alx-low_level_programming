@@ -1,19 +1,17 @@
 #include <stdio.h>
 #include <ctype.h>
 
+
 /**
- * main - entry point
- * Description: program print numbers
- * from one to nine
+ * main - function only prints single digits
  * Return: 0
  */
 int main(void)
 {
 	int i;
 
-	for (i = 0; i < 10; i++)
-		printf("%d", i);
+	for (i = 0; i <= 9; i++)
+		printf("%i", i);
 	printf("\n");
-	
 	return (0);
 }
