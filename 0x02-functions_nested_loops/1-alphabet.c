@@ -1,4 +1,3 @@
-#include <unistd.h>
 #include <ctype.h>
 #include "main.h"
 
@@ -20,13 +19,4 @@ void print_alphabet(void)
 		_putchar(lower_x);
 	}
 	_putchar('\n');
-}
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
 }
