@@ -20,6 +20,6 @@ void print_alphabet_x10(void)
 			lower_x = tolower(x);
 			_putchar(lower_x);
 		}
-	}
 	_putchar('\n');
+	}
 }
