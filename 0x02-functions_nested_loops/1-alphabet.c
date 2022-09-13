@@ -1,3 +1,4 @@
+#include <unistd.h>
 #include <ctype.h>
 #include "main.h"
 
@@ -16,7 +17,16 @@ void print_alphabet(void)
 	for (x = 'A'; x <= 'Z'; x++)
 	{
 		lower_x = tolower(x);
-		putchar(lower_x);
+		_putchar(lower_x);
 	}
-	putchar('\n');
-}	
+	_putchar('\n');
+}
+int main(void)
+{
+	print_alphabet();
+	return (0);
+}
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
