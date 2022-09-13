@@ -7,11 +7,8 @@
  * the alphabet, in lowercase,
  * followed by a new line
  * Return: 0
+ *
  */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
 void print_alphabet_x10(void)
 {
 	int x, a, lower_x;
