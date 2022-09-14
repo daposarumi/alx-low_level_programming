@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -prog that finds and prints the first 98 Fibonacci numbers, starting,
+ * main -program that finds and prints the first 98 Fibonacci numbers, starting,
  * with 1 and 2, followed by a new line.
  *
  * Return: ALways 0 (Success)
@@ -39,4 +39,4 @@ int main(void)
 	printf("\n");
 
 	return (0);
-}	
+}
