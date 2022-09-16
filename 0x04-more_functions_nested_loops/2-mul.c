@@ -10,7 +10,5 @@
  */
 int mul(int a, int b)
 {
-	int cross;
-	cross = a * b;
-	return (cross);
+	return (a * b);
 }
