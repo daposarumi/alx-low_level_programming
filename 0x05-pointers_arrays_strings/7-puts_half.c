@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "main.h"
+int string_len(char *str);
+
 
 /**
  * puts_half - prints half of string
@@ -9,19 +11,42 @@
  */
 void puts_half(char *str)
 {
-	int j, i = 0;
+	int i, len, half, odd_half;
 
-	while (*(str + i))
-		i++;
+	len = string_len(str);
+	half = len / 2;
+	odd_half = (len - 1) / 2;
 
-	j = i / 2;
-	if (i % 2)
-		j += 1;
-
-	while (j < 1)
+	if (len % 2 == 0)
 	{
-		putchar(*(str + 1));
-		j++;
+		for (i = half; i < len; i++)
+		{
+			putchar(str[i]);
+		}
+	}
+	else
+	{
+		for (i = odd_half; i < len; i++)
+		{
+			putchar(str[i]);
+		}
 	}
 	putchar('\n');
+}
+
+/**
+ * string_len - length of string
+ * @str: pointer to string
+ *
+ * Return: length
+ */
+
+int string_len(char *str)
+{
+	int length = 0;
+
+	while (*(str + length) != '\0')
+		length++;
+
+	return (length);
 }
