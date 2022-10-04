@@ -30,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 
 	if (news == NULL)
 	{
-		free (news);
+		free(news);
 		return (NULL);
 	}
 	for (k = 0; k < i; k++)
