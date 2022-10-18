@@ -2,9 +2,9 @@
 #include <ctype.h>
 
 /**
- * main - entry point
- * Description: print numbers one to
- * nine in a hard way
+ * main - print single digit numbers with
+ * putchar
+ *
  * Return: 0
  */
 int main(void)
@@ -14,5 +14,6 @@ int main(void)
 	for (i = '0'; i <= '9'; i++)
 		putchar(i);
 	putchar('\n');
+
 	return (0);
 }
