@@ -1,22 +1,21 @@
-#include <ctype.h>
+#include <stdio.h>
 #include "main.h"
 
-
 /**
- * print_alphabet - Prints the alphabet in lowercase.
- * Description: prints alphabets is lower case followed
- * by new line
+ * print_alphabet - function prints alphabet in
+ * lowercase followed by a new line
+ * @void: nothing
+ *
  * Return: 0
-*/
+ */
+
 void print_alphabet(void)
 {
-	int x;
-	int lower_x;
+	int i;
 
-	for (x = 'A'; x <= 'Z'; x++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		lower_x = tolower(x);
-		_putchar(lower_x);
+		_putchar(i);
 	}
 	_putchar('\n');
 }
