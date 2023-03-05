@@ -4,6 +4,7 @@
 
 /**
  * main - function only prints single digits
+ *
  * Return: 0
  */
 int main(void)
@@ -13,5 +14,6 @@ int main(void)
 	for (i = 0; i <= 9; i++)
 		printf("%i", i);
 	printf("\n");
+
 	return (0);
 }
